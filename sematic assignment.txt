@@ -1,0 +1,46 @@
+Q)What are the new things introduced in html 5?
+1. ANS-Semantics:
+* HTML5 introduced new semantic elements like <header>, <footer>, <nav>, <article>, <section>, and <aside>. These elements provide a clearer structure to web documents, making it easier to understand the purpose and relationship of different parts of a page.
+2. Multimedia:
+* Native support for audio and video embedding through the <audio> and <video> elements. This eliminates the need for third-party plugins like Flash for multimedia playback.
+3. Canvas:
+* The <canvas> element provides a drawing space for graphics and animations. It allows for dynamic rendering of graphics using JavaScript, enabling the creation of games, charts, and other interactive content.
+4. SVG Support:
+* HTML5 includes native support for Scalable Vector Graphics (SVG), allowing the integration of vector-based graphics directly into HTML documents.
+5. Form Controls:
+* New input types like email, url, number, and others, along with attributes like placeholder and required, make it easier to create and validate forms without relying on JavaScript.
+Q)What are semataics tag give a couple of example?
+ANS-Semantic tags in HTML provide meaning to the structure of a web page, making it more understandable for both browsers and developers. Here are a couple of examples of semantic tags introduced in HTML5:
+1. <header>:
+* The <header> element represents a container for introductory content or a group of navigational links. It typically contains headings, logos, and navigation menus for the top of a page.
+<header>
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<article>:
+* The <article> element represents a self-contained piece of content that could be distributed and reused independently, such as a news article, blog post, or forum post.
+<article>
+    <h2>Article Title</h2>
+    <p>Content of the article goes here...</p>
+</article>
+<section>:
+* The <section> element is used to group related content within a document. It helps to organize content into thematic groups, and each section can have its own heading.
+<section>
+    <h2>Section Title</h2>
+    <p>Content of the section goes here...</p>
+</section>
+<nav>:
+* The <nav> element is used to define a section containing navigation links. It typically includes menus, lists of links, or other navigation-related content.
+* <nav>
+*     <ul>
+*         <li><a href="#">Home</a></li>
+*         <li><a href="#">About</a></li>
+*         <li><a href="#">Contact</a></li>
+*     </ul>
+* </nav>
